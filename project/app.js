@@ -1,5 +1,5 @@
 
-let TARGET_QUESTIONS = 0; 
+let TARGET_QUESTIONS = 90; 
 let MIN_TO_SUBMIT = 10;
 
 let allData = {};
@@ -85,7 +85,7 @@ function startQuiz() {
     }
 
    
-    TARGET_QUESTIONS = questions.length;
+    TARGET_QUESTIONS = 90;
     MIN_TO_SUBMIT = Math.min(10, TARGET_QUESTIONS);
 
     //this helps to shuffle
