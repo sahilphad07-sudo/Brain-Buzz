@@ -191,7 +191,7 @@ function updateProgressBar() {
         totalSolved++;
     }
 
-    // USES TARGET_QUESTIONS (WHICH IS NOW 30)
+    
     let percent = (totalSolved / TARGET_QUESTIONS) * 100;
 
     
