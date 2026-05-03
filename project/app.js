@@ -1,5 +1,4 @@
-
-let TARGET_QUESTIONS = 90; 
+let TARGET_QUESTIONS = 30; 
 let MIN_TO_SUBMIT = 10;
 
 let allData = {};
@@ -84,8 +83,8 @@ function startQuiz() {
         questions = [...allData[category][difficulty]];
     }
 
-   
-    TARGET_QUESTIONS = 90;
+    // STRICTLY 30 QUESTIONS
+    TARGET_QUESTIONS = 30;
     MIN_TO_SUBMIT = Math.min(10, TARGET_QUESTIONS);
 
     //this helps to shuffle
@@ -192,8 +191,8 @@ function updateProgressBar() {
         totalSolved++;
     }
 
-   
-    let percent = (totalSolved / 90) * 100;
+    // USES TARGET_QUESTIONS (WHICH IS NOW 30)
+    let percent = (totalSolved / TARGET_QUESTIONS) * 100;
 
     
     if (percent > 100) percent = 100;
