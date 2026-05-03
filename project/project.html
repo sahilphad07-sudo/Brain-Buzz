@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brain Buzz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header id="home">
+        <h1>Brain Buzz</h1>
+        <p>Challenge Yourself and Test your knowledge</p>
+      </header>
+
+      <nav>
+        <a href="#setup-section">Start Quiz</a> |
+        <a href="#rules-section">How to Play</a> |
+        <a href="#leaderboard-container">Leaderboard</a>
+      </nav>
+
+      <section id="setup-section">
+        <h2>Start Quiz</h2>
+        <label>Enter Name:</label>
+        <input type="text" id="username" placeholder="Your name" />
+
+        <label>Select Category:</label>
+        <select id="category" class="basic-dropdown">
+          <option value="" disabled selected>Select Category</option>
+          <option value="web">Web Development</option>
+          <option value="dsa">Data Structures & Algo (DSA)</option>
+          <option value="cpp">C++ Programming</option>
+        </select>
+
+        <label>Select Difficulty:</label>
+        <select id="difficulty" class="basic-dropdown">
+          <option value="" disabled selected>Select Difficulty</option>
+          <option value="all">All Levels</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="start-btn">Start Quiz</button>
+      </section>
+
+      <section id="quiz-section" style="display: none">
+        <div class="quiz-info">
+          <span id="player-name"></span>
+          <span id="current-category"></span>
+          <span id="timer">00:00</span>
+          <div id="progress-container">
+          <div id="progressBar"></div>
+          <div id="progressText">0%</div>
+        </div>
+        </div>
+
+        <div class="question-box">
+          <h2 id="question-text">Question appears here</h2>
+        </div>
+
+        <div id="options-container"></div>
+
+       <div class="controls">
+        <button id="prev-btn">Prev</button>
+        <button id="next-btn">Next</button>
+        <button id="skip-btn">Skip</button>
+      </div>
+      </section> 
+
+      <button id="submit-btn" style="display: none; margin: 0 auto 30px auto; display: block; max-width: 750px;">Submit Quiz</button>
+
+      <section id="result-section" style="display: none">
+        <h2>Quiz Completed</h2>
+        <p id="final-score"></p>
+        <p id="performance-msg"></p>
+        <button id="restart-btn">Play Again</button>
+      </section>
+
+      <section id="rules-section">
+        <h2>How to Play</h2>
+        <p><strong>1. Setup:</strong> Enter your name, then choose your preferred category and difficulty level.</p>
+        <p><strong>2. Goal:</strong> Solve exactly 50 questions. You need at least 10 to submit early!</p>
+        <p><strong>3. Skipping:</strong> If you get stuck, use the skip button to move forward.</p>
+        <p><strong>4. Winning:</strong> Score as high as you can to secure the top spot at the leaderboard!</p>
+      </section>
+
+      <section id="leaderboard-container">
+        <h2>Leaderboard</h2>
+        <ol id="leaderboard-section"></ol>
+      </section>
+
+      <footer>
+        <p>Developed by: Eashan Thakur, Sahil Phad, and Karan Tejwani</p>
+        <a href="#home">Back to Top</a>
+      </footer>
+    </div>
+
+    <!-- Hidden by default so it doesn't overlap the header -->
+    <div id="sidebar" class="sidebar-new" style="display: none;">
+      <h3>Progress</h3>
+      <p>Category: <span id="side-category">-</span></p>
+      <p>Difficulty: <span id="side-difficulty">-</span></p>
+      <p>Solved: <span id="side-solved">0 / 50</span></p>
+      <button onclick="goBack()" style="padding: 10px; font-size: 16px;">Change Quiz</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

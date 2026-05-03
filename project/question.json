@@ -1,0 +1,119 @@
+{
+  "web": {
+    "easy": [
+      {"question": "HTML stands for?", "options": ["Hyper Text Markup Language","High Text Machine Language","None","Other"], "answer": "Hyper Text Markup Language"},
+      {"question": "CSS is used for?", "options": ["Styling","Logic","DB","Server"], "answer": "Styling"},
+      {"question": "Tag for paragraph?", "options": ["<p>","<h1>","<div>","<br>"], "answer": "<p>"},
+      {"question": "JS used for?", "options": ["Logic","Style","DB","None"], "answer": "Logic"},
+      {"question": "Image tag?", "options": ["<img>","<pic>","<image>","<src>"], "answer": "<img>"},
+      {"question": "Line break tag?", "options": ["<br>","<hr>","<p>","<lb>"], "answer": "<br>"},
+      {"question": "CSS color property?", "options": ["color","font","bg","text"], "answer": "color"},
+      {"question": "JS constant?", "options": ["const","var","let","define"], "answer": "const"},
+      {"question": "Anchor tag?", "options": ["<a>","<link>","<href>","<url>"], "answer": "<a>"},
+      {"question": "CSS file extension?", "options": [".css",".html",".js",".txt"], "answer": ".css"}
+    ],
+    "medium": [
+      {"question": "DOM stands for?", "options": ["Document Object Model","Data Model","None","Other"], "answer": "Document Object Model"},
+      {"question": "Event click?", "options": ["onclick","onrun","run","exec"], "answer": "onclick"},
+      {"question": "JS array add?", "options": ["push()","add()","append()","insert()"], "answer": "push()"},
+      {"question": "CSS display?", "options": ["display","show","view","layout"], "answer": "display"},
+      {"question": "Local storage?", "options": ["localStorage","session","cookie","store"], "answer": "localStorage"},
+      {"question": "Fetch API?", "options": ["fetch()","call()","api()","run()"], "answer": "fetch()"},
+      {"question": "JSON parse?", "options": ["JSON.parse()","parse()","convert()","read()"], "answer": "JSON.parse()"},
+      {"question": "Event listener?", "options": ["addEventListener","listen","on","run"], "answer": "addEventListener"},
+      {"question": "Async keyword?", "options": ["async","await","promise","then"], "answer": "async"},
+      {"question": "Arrow function?", "options": ["=>","->","==>","none"], "answer": "=>"}
+    ],
+    "hard": [
+      {"question": "Closure?", "options": ["Function scope","Loop","None","Other"], "answer": "Function scope"},
+      {"question": "Hoisting?", "options": ["Variable lifting","Loop","Memory","None"], "answer": "Variable lifting"},
+      {"question": "Promise?", "options": ["Async result","Loop","None","Other"], "answer": "Async result"},
+      {"question": "Async await?", "options": ["Async handling","Loop","None","Other"], "answer": "Async handling"},
+      {"question": "Debounce?", "options": ["Limit calls","Loop","None","Other"], "answer": "Limit calls"},
+      {"question": "Throttle?", "options": ["Control rate","Loop","None","Other"], "answer": "Control rate"},
+      {"question": "Virtual DOM?", "options": ["Copy DOM","Real DOM","None","Other"], "answer": "Copy DOM"},
+      {"question": "Spread operator?", "options": ["...","*","++","--"], "answer": "..."},
+      {"question": "Map function?", "options": ["transform array","loop","none","other"], "answer": "transform array"},
+      {"question": "Filter function?", "options": ["filter array","loop","none","other"], "answer": "filter array"}
+    ]
+  },
+
+  "dsa": {
+    "easy": [
+      {"question": "Stack follows?", "options": ["LIFO","FIFO","None","Other"], "answer": "LIFO"},
+      {"question": "Queue follows?", "options": ["FIFO","LIFO","None","Other"], "answer": "FIFO"},
+      {"question": "Array index starts?", "options": ["0","1","-1","2"], "answer": "0"},
+      {"question": "Push used in?", "options": ["Stack","Queue","Tree","Graph"], "answer": "Stack"},
+      {"question": "Pop removes?", "options": ["Top","Bottom","Middle","None"], "answer": "Top"},
+      {"question": "Queue insert?", "options": ["Enqueue","Push","Insert","Add"], "answer": "Enqueue"},
+      {"question": "Queue delete?", "options": ["Dequeue","Pop","Remove","Delete"], "answer": "Dequeue"},
+      {"question": "Linked list?", "options": ["Dynamic","Static","Fixed","None"], "answer": "Dynamic"},
+      {"question": "Binary tree children?", "options": ["2","3","4","1"], "answer": "2"},
+      {"question": "Traversal means?", "options": ["Visit nodes","Delete","Insert","None"], "answer": "Visit nodes"}
+    ],
+    "medium": [
+      {"question": "Binary search complexity?", "options": ["O(log n)","O(n)","O(1)","O(n^2)"], "answer": "O(log n)"},
+      {"question": "Linear search complexity?", "options": ["O(n)","O(log n)","O(1)","O(n^2)"], "answer": "O(n)"},
+      {"question": "DFS uses?", "options": ["Stack","Queue","Heap","Array"], "answer": "Stack"},
+      {"question": "BFS uses?", "options": ["Queue","Stack","Heap","Array"], "answer": "Queue"},
+      {"question": "Heap type?", "options": ["Min/Max","Stack","Queue","None"], "answer": "Min/Max"},
+      {"question": "Hashing?", "options": ["Mapping","Sorting","Search","None"], "answer": "Mapping"},
+      {"question": "Traversal inorder?", "options": ["LNR","NRL","RLN","None"], "answer": "LNR"},
+      {"question": "Recursion?", "options": ["Self call","Loop","None","Other"], "answer": "Self call"},
+      {"question": "Cycle detection?", "options": ["DFS","Sort","Loop","None"], "answer": "DFS"},
+      {"question": "Queue complexity?", "options": ["O(1)","O(n)","O(log n)","None"], "answer": "O(1)"}
+    ],
+    "hard": [
+      {"question": "AVL tree?", "options": ["Balanced BST","Heap","Stack","None"], "answer": "Balanced BST"},
+      {"question": "Dijkstra?", "options": ["Shortest path","Sort","Search","None"], "answer": "Shortest path"},
+      {"question": "Merge sort complexity?", "options": ["O(n log n)","O(n)","O(n^2)","O(1)"], "answer": "O(n log n)"},
+      {"question": "Dynamic programming?", "options": ["Optimization","Sorting","Loop","None"], "answer": "Optimization"},
+      {"question": "Trie used for?", "options": ["Strings","Numbers","Tree","None"], "answer": "Strings"},
+      {"question": "Graph cycle?", "options": ["Loop","Tree","None","Other"], "answer": "Loop"},
+      {"question": "Topological sort?", "options": ["DAG","Tree","Array","None"], "answer": "DAG"},
+      {"question": "Heap sort?", "options": ["Heap","Tree","Stack","None"], "answer": "Heap"},
+      {"question": "Backtracking?", "options": ["Try all","Loop","None","Other"], "answer": "Try all"},
+      {"question": "Segment tree?", "options": ["Range query","Loop","None","Other"], "answer": "Range query"}
+    ]
+  },
+
+  "cpp": {
+    "easy": [
+      {"question": "C++ supports?", "options": ["OOP","Procedural","None","Other"], "answer": "OOP"},
+      {"question": "Header for I/O?", "options": ["<iostream>","<stdio>","<input>","None"], "answer": "<iostream>"},
+      {"question": "cout used for?", "options": ["Output","Input","Loop","None"], "answer": "Output"},
+      {"question": "cin used for?", "options": ["Input","Output","Loop","None"], "answer": "Input"},
+      {"question": "Extension?", "options": [".cpp",".c",".py",".java"], "answer": ".cpp"},
+      {"question": "Loop keyword?", "options": ["for","loop","repeat","None"], "answer": "for"},
+      {"question": "Break does?", "options": ["Stop loop","Continue","Start","None"], "answer": "Stop loop"},
+      {"question": "Continue does?", "options": ["Skip","Stop","Break","None"], "answer": "Skip"},
+      {"question": "Main function?", "options": ["main()","start()","run()","init()"], "answer": "main()"},
+      {"question": "Semicolon?", "options": ["End statement","Loop","None","Other"], "answer": "End statement"}
+    ],
+    "medium": [
+      {"question": "Constructor?", "options": ["Init object","Destroy","Compile","None"], "answer": "Init object"},
+      {"question": "Destructor?", "options": ["Destroy object","Init","Compile","None"], "answer": "Destroy object"},
+      {"question": "Pointer stores?", "options": ["Address","Value","None","Other"], "answer": "Address"},
+      {"question": "Dynamic memory?", "options": ["new","malloc","alloc","create"], "answer": "new"},
+      {"question": "Class keyword?", "options": ["class","struct","obj","none"], "answer": "class"},
+      {"question": "Object?", "options": ["Instance","Class","Func","None"], "answer": "Instance"},
+      {"question": "Static keyword?", "options": ["Shared","Private","Loop","None"], "answer": "Shared"},
+      {"question": "Const keyword?", "options": ["Constant","Variable","Loop","None"], "answer": "Constant"},
+      {"question": "Function?", "options": ["Reusable code","Loop","None","Other"], "answer": "Reusable code"},
+      {"question": "Call by value?", "options": ["Copy","Reference","None","Other"], "answer": "Copy"}
+    ],
+    "hard": [
+      {"question": "Polymorphism?", "options": ["Many forms","Single","None","Other"], "answer": "Many forms"},
+      {"question": "Inheritance?", "options": ["Reuse","Delete","None","Other"], "answer": "Reuse"},
+      {"question": "Virtual function?", "options": ["Runtime","Compile","None","Other"], "answer": "Runtime"},
+      {"question": "Encapsulation?", "options": ["Data hiding","Expose","None","Other"], "answer": "Data hiding"},
+      {"question": "STL?", "options": ["Library","Tool","None","Other"], "answer": "Library"},
+      {"question": "Template?", "options": ["Generic","Specific","None","Other"], "answer": "Generic"},
+      {"question": "Exception handling?", "options": ["Error control","Loop","None","Other"], "answer": "Error control"},
+      {"question": "File handling?", "options": ["fstream","iostream","None","Other"], "answer": "fstream"},
+      {"question": "Smart pointer?", "options": ["Auto manage","Manual","None","Other"], "answer": "Auto manage"},
+      {"question": "Vector?", "options": ["Dynamic array","Static","None","Other"], "answer": "Dynamic array"}
+    ]
+  }
+}
+
